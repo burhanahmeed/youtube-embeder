@@ -1274,6 +1274,14 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@techassi/vue-youtube-iframe@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@techassi/vue-youtube-iframe/-/vue-youtube-iframe-1.0.6.tgz#3e7b2a49efbb586b5275a513cac0786e278f1563"
+  integrity sha512-5Hf2PsoGcw/oFN8cq56CF1Wtal1VWntpKJLlCsLj7aKzFXdsQEupNcmwhKexV4LdZoGnnmGsUpzJuxzVPj5mmQ==
+  dependencies:
+    "@types/youtube" "^0.0.41"
+    vue "^3.0.5"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -1427,6 +1435,11 @@
   integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
   dependencies:
     "@types/yargs-parser" "*"
+
+"@types/youtube@^0.0.41":
+  version "0.0.41"
+  resolved "https://registry.yarnpkg.com/@types/youtube/-/youtube-0.0.41.tgz#61b5526c0638ea9eb715cf47590763bcf907788d"
+  integrity sha512-k6IzSO62JaC4YImW6dEYzWA84+Gb4T0KPswy2FlWAWKcitstju8qZ3sN2GKhKskcslOiXmVveem/x/gCa3zMRg==
 
 "@typescript-eslint/eslint-plugin@^5.12.0":
   version "5.12.0"
@@ -5857,7 +5870,7 @@ vue3-jest@27.0.0-alpha.2:
     source-map "0.5.6"
     tsconfig "^7.0.0"
 
-vue@^3.2.25:
+vue@^3.0.5, vue@^3.2.25:
   version "3.2.31"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.31.tgz#e0c49924335e9f188352816788a4cca10f817ce6"
   integrity sha512-odT3W2tcffTiQCy57nOT93INw1auq5lYLLYtWpPYQQYQOOdHiqFct9Xhna6GJ+pJQaF67yZABraH47oywkJgFw==

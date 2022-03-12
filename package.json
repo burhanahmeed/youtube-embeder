@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.0.1",
+    "@techassi/vue-youtube-iframe": "^1.0.6",
     "@vitejs/plugin-vue": "^2.2.0",
     "ant-design-vue": "^2.2.8",
     "pinia": "^2.0.11",
@@ -29,8 +30,8 @@
     "@typescript-eslint/parser": "^5.12.0",
     "@vue/test-utils": "^2.0.0-rc.17",
     "@vue/vue3-jest": "^27.0.0-alpha.3",
-    "babel-jest": "^27.3.1",
     "autoprefixer": "^10.4.2",
+    "babel-jest": "^27.3.1",
     "eslint": "^8.9.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-typescript": "^2.5.0",
