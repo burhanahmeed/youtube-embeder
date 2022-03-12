@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, onMounted, ref } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
+import { useRoute, useRouter, LocationQueryValue } from 'vue-router';
 
 import { Page, Base } from '@/src/components/ui';
 import Header from '@/src/components/common/Header.vue';
@@ -31,7 +31,7 @@ export default defineComponent({
     const route = useRoute();
     const router = useRouter();
 
-    const videoId = ref<string|null>('');
+    const videoId = ref<string|null|LocationQueryValue[]>('');
 
     onMounted(() => {
       const { q } = route.query;
@@ -42,7 +42,7 @@ export default defineComponent({
         });
       }
 
-      videoId.value = q || '';
+      videoId.value = q;
     });
 
     return {
