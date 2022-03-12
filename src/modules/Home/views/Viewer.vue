@@ -1,8 +1,10 @@
 <template>
   <Base>
+    <Header />
     <Page>
       <div v-if="videoId">
         <youtube-iframe
+          ref="yt"
           :video-id="videoId"
           player-width="100%"
         />
@@ -16,12 +18,14 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 import { Page, Base } from '@/src/components/ui';
+import Header from '@/src/components/common/Header.vue';
 
 export default defineComponent({
   name: 'ViewerPage',
   components: {
     Base,
     Page,
+    Header,
   },
   setup() {
     const route = useRoute();

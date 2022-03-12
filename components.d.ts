@@ -7,9 +7,10 @@ declare module 'vue' {
     AButton: typeof import('ant-design-vue/es')['Button']
     AInputSearch: typeof import('ant-design-vue/es')['InputSearch']
     Base: typeof import('./src/components/ui/Base.vue')['default']
+    Header: typeof import('./src/components/common/Header.vue')['default']
     Logo: typeof import('./src/components/common/Logo.vue')['default']
     Page: typeof import('./src/components/ui/Page.vue')['default']
   }
 }
 
-export { }
+export { };
