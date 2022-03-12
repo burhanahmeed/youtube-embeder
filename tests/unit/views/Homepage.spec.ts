@@ -1,7 +1,8 @@
+/* eslint-disable */
 import { shallowMount } from '@vue/test-utils';
-import HomePage from '@/src/views/HomePage.vue';
 import antdv from 'ant-design-vue';
 import Button from 'ant-design-vue/lib/button';
+import HomePage from '@/src/views/HomePage';
 
 describe('test HomePage.vue', () => {
   it('renders home page title', () => {

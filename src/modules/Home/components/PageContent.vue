@@ -38,20 +38,20 @@ export default defineComponent({
     const link = ref<string>('');
 
     const handleSearch = () => {
-      getYoutubeId(link.value)
+      getYoutubeId(link.value);
 
       router.push({
         name: 'Viewer',
         query: {
-          q: youtubeId.value
-        }
-      })
-    }
+          q: youtubeId.value,
+        },
+      });
+    };
 
     return {
       link,
-      handleSearch
-    }
-  }
+      handleSearch,
+    };
+  },
 });
 </script>
